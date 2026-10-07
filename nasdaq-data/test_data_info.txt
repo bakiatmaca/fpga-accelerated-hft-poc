@@ -1,0 +1,13 @@
+
+#emi.nasdaq.com - /ITCH/Nasdaq ITCH/
+https://emi.nasdaq.com/ITCH/Nasdaq%20ITCH/
+
+
+# 391 MB
+wget https://emi.nasdaq.com/ITCH/Nasdaq%20BX%20ITCH/20190730.BX_ITCH_50.gz
+
+
+# show data
+gunzip -c 20190730.BX_ITCH_50.gz | head -c 64 | xx
+
+
